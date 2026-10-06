@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AirTag Showcase</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(135deg, #000, #333);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .airtag-img {
+      max-width: 250px;
+      margin: 20px auto;
+    }
+    .features i {
+      font-size: 2rem;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Apple AirTag</h1>
+    <p class="lead">Never lose track of your essentials again.</p>
+    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airtag-single-select-202104?wid=940&hei=1112&fmt=jpeg&qlt=90&.v=1617761672000" 
+         alt="AirTag" class="airtag-img img-fluid rounded">
+    <a href="#" class="btn btn-light btn-lg mt-3">Buy Now</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4">Key Features</h2>
+    <div class="row text-center features">
+      <div class="col-md-4">
+        <i class="bi bi-geo-alt-fill"></i>
+        <h5 class="mt-2">Precision Finding</h5>
+        <p>Locate your items with ultra‑wideband technology.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-shield-lock-fill"></i>
+        <h5 class="mt-2">Privacy First</h5>
+        <p>Built-in encryption keeps your location secure.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-battery-charging"></i>
+        <h5 class="mt-2">Long Battery Life</h5>
+        <p>Replaceable battery lasts up to a year.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>&copy; 2026 AirTag Showcase. Designed by Aaryan.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
